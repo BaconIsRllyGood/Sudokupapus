@@ -207,7 +207,7 @@ function verificarVictoria() {
         /*alert("¡Felicidades, has completado el juego!");*/
         
         if(confirm("¡Felicidades, has completado el juego!"));
-        window.location.href = "https://www.youtube.com/watch?v=mCdA4bJAGGk" //"https://youtu.be/61nTDz7_df4";
+        window.location.href = "https://youtu.be/9iJbOweVivE" //"https://youtu.be/61nTDz7_df4";
 
     }
 }
