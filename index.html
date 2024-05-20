@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>Sudoku</title>
+
+        <script> 
+        alert("Empieza el juego. Elije tu modo de juego");
+        </script>
+                
+        <link rel="stylesheet" href="sudoku.css">
+        <script src="sudoku.js"></script>
+        
+        <audio autoplay loop>
+            <source src= "Y2meta.app - Pou music ost - Food Drop (320 kbps).mp3" type="audio/mpeg">
+          </audio>
+
+    </head>
+
+    <body>               
+  
+
+        <h1>Sudoku</h1>
+        <hr>
+        <!-- Crónometro -->
+        <span id="tiempo">Tiempo: 00:00</span>
+
+        <!-- Agrega un elemento para mostrar mensajes -->
+        <div id="mensaje"></div>
+
+         <h2 id="errores">0</h2>
+
+         <button onclick="iniciarJuego('facil')">Fácil</button>
+         <button onclick="iniciarJuego('medio')">Medio</button>
+         <button onclick="iniciarJuego('dificil')">Difícil</button>
+
+         <button onclick="resolverAutomaticamente()">Resolver</button>
+        <!-- Botón para reiniciar el juego -->
+        <button onclick="reiniciarJuego()">Nuevo juego</button>
+
+        <!-- 9x9 tablero -->
+        <div id="tablero">
+        </div>
+        
+        <br>
+        <div id="digitos">
+        </div>
+        <br> 
+
+    </body>
+
+</html>
